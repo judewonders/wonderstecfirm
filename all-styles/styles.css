@@ -214,9 +214,9 @@ a:hover {
    right: 2rem;
    top: 75px;
    height: 0;
-   width: 300px;
-   background: rgba(255, 255, 255, 0.1);
-   backdrop-filter: blur(15px);
+   width: 100%;
+  background-color: #ffffff;
+  background-image: url(/images/diamond-upholstery-blog-bg.png);
    border-radius: 10px;
    overflow: hidden;
    transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -228,8 +228,7 @@ a:hover {
    align-items: center;
    justify-content: center; */
 
-   background-color: #ffffff;
-  background-image: url(/images/diamond-upholstery-blog-bg.png);
+   
 
    }
  
