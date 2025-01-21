@@ -1,0 +1,52 @@
+Breakpoints for Responsive Design:
+Extra Small Devices (Mobile)
+
+Width: < 576px
+Example: Phones in portrait mode.
+Small Devices (Mobile)
+
+Width: 576px – 767px
+Example: Phones in landscape mode or small tablets.
+Medium Devices (Tablet)
+
+Width: 768px – 991px
+Example: Tablets and small laptops.
+Large Devices (Desktop)
+
+Width: 992px – 1199px
+Example: Laptops and desktops.
+Extra Large Devices (Large Desktop)
+
+Width: ≥ 1200px
+Example: Large desktops or wide monitors.
+Ultra-Wide Devices
+
+Width: ≥ 1440px or ≥ 1920px
+Example: Ultra-wide or high-resolution screens.
+CSS Media Query Examples:
+css
+Copy code
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { ... }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
+
+/* Ultra-wide screens (1440px or more) */
+@media (min-width: 1440px) { ... }
+These breakpoints are flexible, so feel free to adjust them to suit your specific design and user needs.
+
+
+
+
+
+

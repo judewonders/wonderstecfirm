@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript function</title>
+</head>
+<body>
+  <div class="js-div"></div>
+  <script>
+  
+    // const age = ['how are you doing','God Is Good All The Time', 'And All The Times God Is Good'];
+    //   for (let i = 0; i < age.length; i++) {
+    //     // console.log(`<div>${age[i]}</div>`);
+      
+    //  let html = `<p>${age[i]}</p>`;
+    //  console.log(html);
+    //  document.querySelector('body')
+    //  .innerHTML =  ` 777`;
+    
+    //   }
+
+
+  //   let password = prompt(`Type your password`);
+  //   function checkPassword() {
+
+  //   if (password.length >= 12 && password.includes('@')) {
+  //     alert('Your password is Super Strong');
+  //   } else if (password.length >= 8 || password.includes('@')) {
+  //     alert('Your password is strong enough');
+  //   }   else {
+  //     alert('Your Password is weak type new one sorry !');
+       
+  //   }
+  // }
+
+  // checkPassword();
+
+  //   // if (password.length < 8 || password.includes('@')) {
+  //   //   password = prompt(`Type your password`);
+  //   //   checkPassword();
+
+  //   // }
+
+
+  //   let user = false;
+  //   if (!user) {
+  //     console.log('You Need To Sign In Buddy To Continue');
+
+  
+  //   }
+
+    /*
+  const scores = [10,20,30,40,50,60,70,80,90,100,110,120,130];
+
+  for (let i = 0; i < scores.length; i++) {
+
+    if (scores[i] === 50) {
+      continue;
+    }
+    console.log('Score:', scores[i]);
+
+    if (scores[i] === 100) {
+      console.log("You Have Exceed The Highest Score");
+      break;
+    }
+    
+  }
+
+  // Switch Statement
+
+  const age = 20;
+
+  switch(age) {
+    case 12 : 
+      console.log('you not yet ', 20);
+      break;
+    case 20 : 
+      console.log('you are', 20, 'you can sign up hruuuuuuey!') ;
+    break;
+    default : 
+      console.log('Your Are Under Age');  
+  }
+  
+
+
+
+  // Block Scope Variable 
+
+  let name = 'Wonders';
+  if (2) {
+    let name = 'Codewonders';
+    console.log(name);
+
+    if (20) {
+      let name = 'Tech';
+      console.log(name);
+    }
+  }
+
+  console.log(name);
+   */
+
+  //  Function Declaration
+
+   const CalcArea = function(radius) {
+    return 3 * radius**2;
+   }
+
+   CalcArea(5);
+
+   const area = CalcArea(5);
+   console.log(area);
+  //  Arrow Function
+
+   const greet = () => 'hello, world';
+  const text = greet();
+   console.log(text);
+
+
+   // Call Backs and ForEach
+
+   let people = ['Jude','Arku', 'Desmond', 'Ebenezer'];
+
+ const logPeople = (person, index) => {
+  console.log(`hello ${person} ${index}`);
+ }
+
+   people.forEach(logPeople);
+  </script>
+</body>
+</html>
